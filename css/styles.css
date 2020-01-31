@@ -1,16 +1,66 @@
+.right-panel, .left-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.content, .header {
+  display: flex;
+  flex-direction: row;
+}
+
 #page {
   max-width: 900px;
+  margin: 0 auto;
 }
 
 .header {
-  background-image: url("../images/00C322FC-36C3-4A5E-84A3-0760E5D95A8C_1_105_c.jpeg");
-  display: flex;
-  flex-direction: column;
+  background-image: url("../images/coding1.jpg");
+  background-size: cover;
   justify-content: space-between;
+  height: 200px;
+  padding: 20px;
 }
 
-.profile-pic {
-  background-image: url("../images/coding.jpg");
+.profile-pic img {
+  height: 200px;
+  border-radius: 50%;
+}
+
+.name-title > p:first-of-type {
+  font-size: 70px;
+  color: #ffffff;
+  margin: 30px 0;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.name-title > p:last-of-type {
+  font-size: 35px;
+  color: #ffffff;
+  margin: 30px 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+.left-panel {
+  background-color: #A587EE;
+  width: 800px;
+  padding: 40px;
+}
+
+.right-panel {
+  background-color: #E3E07F;
+  padding: 40px;
+}
+
+h1 {
+  text-decoration: underline;
+  font-family: "Fira Sans", sans-serif;
+}
+p, li {
+  font-family: "Roboto Mono", monospace;
+}
+
+.spacing {
+  padding: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
