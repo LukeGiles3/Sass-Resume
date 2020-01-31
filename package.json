@@ -1,0 +1,20 @@
+{
+  "name": "sass-resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch sass/sass.sass css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukeGiles3/Sass-Resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LukeGiles3/Sass-Resume/issues"
+  },
+  "homepage": "https://github.com/LukeGiles3/Sass-Resume#readme"
+}

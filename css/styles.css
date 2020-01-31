@@ -1,0 +1,16 @@
+#page {
+  max-width: 900px;
+}
+
+.header {
+  background-image: url("../images/00C322FC-36C3-4A5E-84A3-0760E5D95A8C_1_105_c.jpeg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.profile-pic {
+  background-image: url("../images/coding.jpg");
+}
+
+/*# sourceMappingURL=styles.css.map */
